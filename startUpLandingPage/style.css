@@ -1,0 +1,78 @@
+
+body,
+html {
+  width: 100%;
+  height: 100%; 
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  max-width: 400px;
+  border-width: 3px;
+  border-color: #F05F44; 
+}
+
+.faded {
+  color: rgba(255, 255, 255, 0.8); 
+}
+
+header.startup.image {
+  background-position: center;
+  background-image: url("excalibur.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  filter: grayscale();
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -2;
+}
+
+
+header.startup hr {
+  margin-top: 2rem;
+  margin-bottom: 30px;
+}
+
+header.startup h1 {
+  font-size: 5rem;
+  letter-spacing: 1rem; 
+  padding-top: 40vh;
+  text-align: center;
+  padding-left: 1rem;
+  background: -webkit-linear-gradient(#03001e, #7303c0, #ec38bc, #fdeff9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn-xl {
+  padding: 1rem 2rem; 
+}
+
+.btn-primary {
+  /*background-color: #F05F44;*/
+  border-color: #F05F44;
+  background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+  }
+
+.btn-primary:hover {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 5px;
+  cursor: pointer;
+}
+  
